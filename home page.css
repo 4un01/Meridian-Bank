@@ -1,0 +1,164 @@
+body{
+    margin: 0 auto;
+    background-color: #EEF6FA;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: light;
+}
+
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: regular;
+}
+
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: light;
+}
+
+
+.heroSection{
+    background-image: url('./images/bank_hero_background.svg');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#bankLogo{
+    height: 70px;
+    width: 70px;
+    border-radius: 14px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+#brandTitle{
+    font-family: "Inter";
+    font-weight: 300;
+    color: #0a4d75;
+}
+.links{
+    display: flex;
+    gap: 22px;   
+}
+.links, a{
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 350;
+    color: #0a4d75;
+}
+
+.heroSectionInfo{
+    margin-left: 20px;
+}
+.heroSectionInfo h1{
+    margin-top: 70px;
+    font-size: 3em;
+    font-family: "Playfair Display";
+    font-style: normal;
+    color: #062f4d;
+}
+#ambitions{
+    margin-top: 0;
+    font-family: "Playfair Display";
+    font-style: italic;
+    color: #0f6ea8;
+}
+.heroSectionInfo hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #0a4d75;
+    margin: 1em 0;
+    padding: 0;
+    width: 330px;
+    margin-top: -40px;
+}
+.heroSectionInfo p{
+    font-family: "DM Sans";
+    font-size: 1.15em;
+    color: #1d5d84;
+}
+#mortgageCalcBtn{
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: "DM Sans";
+    background-color: transparent;
+    border: 2px solid #4f9dce;
+    border-radius: 6px;
+    color: #0a4d75;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+}
+#lead{
+    border: 2px solid #b8daea;
+    background-color: #D6EEF5;
+    padding: 8px;
+    height: fit-content;
+    width: fit-content;
+    font-family: "DM Sans";
+    color: #0a4d75;
+}
+#security{
+    border: 2px solid #b8daea;
+    background-color: #D6EEF5;
+    padding: 8px;
+    font-family: "DM Sans";
+    color: #0a4d75;
+    height: fit-content;
+    width: fit-content;
+}
+#trust{
+    border: 2px solid #b8daea;
+    background-color: #D6EEF5;
+    padding: 8px;
+    font-family: "DM Sans";
+    color: #0a4d75;
+    height: fit-content;
+    width: fit-content;
+}
+
+footer{
+    background-image: url(./images/navbarBackground.png);
+    height: fit-content;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Inter';
+    color: #0a4d75;
+    font-size: 0.7em;
+    margin: 0 auto;
+    width: 500px;
+    
+}

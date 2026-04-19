@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="./mortgage calculator.css">
+    <link rel="icon" href="./images/BankLogo.png">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');</style>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="navbar">
+
+                <div class="logo">
+                <img src="./images/BankLogo.png" alt="Bank Logo" id="bankLogo">
+                    <h2 id="brandTitle">Meridian Banking</h2> 
+                </div>
+                <nav class="links">
+                    <a href="./home page.html">Home</a>
+                    <a href="./about page.html">About</a>
+                    <a href="./contact page.html">Contact</a>
+                    <a href="./services page.html">Services</a>
+                    <a href="./mortgage calculator.html">Mortgage Calculator</a>
+                    <a href="./faq page.html">FAQ</a>
+                </nav>
+        </div>
+
+    <div class="welcome">
+        <h1>Mortgage Calculator</h1>
+        <p>Fill out the details and see what your eligible for</p>
+    </div>
+
+    <div class="mortgageContainer">
+        
+        <h2>Mortgage Calculator</h2>
+        <p>Fill in the form and see your monhly mortgage payment</p>
+
+        <form class="form">
+            <label for="loanAmount">Loan Amount</label>
+            <input type="number" name="loanAmount" id="loanAmount" required>
+
+            <label for="interest">Interest Rate</label>
+            <input type="number" name="interest" id="interest" step=".01" required>
+
+            <label for="subject">Number of Years</label>
+            <input type="number" name="years" id="years" required>
+
+            <button id="btn">Calculate</button>
+
+        </form>
+
+        <div id="mortgageResult"></div>
+        
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <b>© 2025 Meridian Banking. All rights reserved.</b>
+            <p>
+                Meridian Banking is a registered trading name. Authorised and regulated by the Financial Conduct Authority (FCA). Registration number: 987654.
+                Your eligible deposits are protected up to £85,000 per depositor by the Financial Services Compensation Scheme (FSCS). For more information visit fscs.org.uk.
+                Meridian Banking is committed to responsible lending. Any mortgage or loan product is subject to status, eligibility, and affordability checks. Your home may be repossessed if you do not keep up repayments on a mortgage.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./mortgage calculator.js"></script>
+</body>
+</html>

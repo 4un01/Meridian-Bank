@@ -1,0 +1,261 @@
+body{
+    margin: 0 auto;
+    background-color: #EEF6FA;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container{
+    background-image: url(./images/navbarBackground.png);
+    height: 350px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+#bankLogo{
+    height: 70px;
+    width: 70px;
+    border-radius: 14px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+#brandTitle{
+    font-family: "Inter";
+    font-weight: 300;
+    color: #0a4d75;
+}
+.links{
+    display: flex;
+    gap: 22px;   
+}
+.links a{
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 350;
+    color: #0a4d75;
+}
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h1{
+    font-family: "Playfair Display";
+    font-size: 5em;
+    color: #062f4d;
+}
+.welcome p{
+    font-family: "DM Sans";
+    font-size: 1.2em;
+    color: #062f4d;
+    margin-top: -30px;
+}
+
+
+
+.accounts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.accounts img{
+    width: 1200px;
+    opacity: 0.7;
+}
+#accountInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+}
+#accountInfo h2{
+    font-size: 2.5em;
+    font-family: "Playfair Display";
+    color: #062f4d;
+}
+#accountInfo p{
+    font-family: "DM Sans";
+    font-size: 1.15em;
+    color: #0a4d75;
+}
+
+
+
+.lending{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.lending img{
+    width: 1200px;
+    opacity: 0.7;
+}
+#lendingInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+}
+#lendingInfo h2{
+    font-size: 2.5em;
+    font-family: "Playfair Display";
+    color: #062f4d;
+}
+#lendingInfo p{
+    font-family: "DM Sans";
+    font-size: 1.15em;
+    color: #0a4d75;
+}
+
+
+
+.everydayBanking{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.everydayBanking img{
+    width: 1200px;
+    opacity: 0.7;
+}
+#everydayBankingInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+}
+#everydayBankingInfo h2{
+    font-size: 2.5em;
+    font-family: "Playfair Display";
+    color: #062f4d;
+}
+#everydayBankingInfo p{
+    font-family: "DM Sans";
+    font-size: 1.15em;
+    color: #0a4d75;
+}
+
+
+
+.overdraft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.overdraft img{
+    width: 1200px;
+    opacity: 0.7;
+}
+#overdraftInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+}
+#overdraftInfo h2{
+    font-size: 2.5em;
+    font-family: "Playfair Display";
+    color: #062f4d;
+}
+#overdraftInfo p{
+    font-family: "DM Sans";
+    font-size: 1.15em;
+    color: #0a4d75;
+}
+
+
+
+.specialisedServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.specialisedServices img{
+    width: 1200px;
+    opacity: 0.7;
+}
+#specialisedServicesInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+}
+#specialisedServicesInfo h2{
+    font-size: 2.5em;
+    font-family: "Playfair Display";
+    color: #062f4d;
+}
+#specialisedServicesInfo p{
+    font-family: "DM Sans";
+    font-size: 1.15em;
+    color: #0a4d75;
+}
+
+
+
+footer{
+    background-image: url(./images/navbarBackground.png);
+    height: fit-content;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Inter';
+    color: #0a4d75;
+    font-size: 0.7em;
+    margin: 0 auto;
+    width: 500px;
+    
+}

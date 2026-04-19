@@ -1,0 +1,126 @@
+body{
+    margin: 0 auto;
+    background-color: #EEF6FA;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container{
+    background-image: url(./images/navbarBackground.png);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+#bankLogo{
+    height: 70px;
+    width: 70px;
+    border-radius: 14px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+#brandTitle{
+    font-family: "Inter";
+    font-weight: 300;
+    color: #0a4d75;
+}
+.links{
+    display: flex;
+    gap: 22px;   
+}
+.links a{
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 350;
+    color: #0a4d75;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(./images/aboutPageUkBank.avif);
+    background-size: cover;
+    min-height: 450px;
+    opacity: 0.5;
+    z-index: 0;
+}
+.banner h1{
+    position: relative;
+    z-index: 1;
+    font-family: "Playfair Display";
+    font-size: 9em;
+    color: #062f4d;
+    opacity: 0.8;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 900px;
+    margin-top: 80px;
+}
+.info h3{
+    font-family: "Inter";
+    font-size: 1.85em;
+    color: #0a4d75;
+}
+.info p{
+    font-family: "Inter";
+    color: #0a4d75;
+}
+
+
+footer{
+    background-image: url(./images/navbarBackground.png);
+    height: fit-content;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Inter';
+    color: #0a4d75;
+    font-size: 0.7em;
+    margin: 0 auto;
+    width: 500px;
+    
+}

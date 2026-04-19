@@ -1,0 +1,135 @@
+body{
+    margin: 0 auto;
+    background-color: #EEF6FA;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container{
+    background-image: url(./images/navbarBackground.png);
+    height: 350px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+#bankLogo{
+    height: 70px;
+    width: 70px;
+    border-radius: 14px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+#brandTitle{
+    font-family: "Inter";
+    font-weight: 300;
+    color: #0a4d75;
+}
+.links{
+    display: flex;
+    gap: 22px;   
+}
+.links a{
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 350;
+    color: #0a4d75;
+}
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h1{
+    font-family: "Playfair Display";
+    font-size: 5em;
+    color: #062f4d;
+}
+.welcome p{
+    font-family: "DM Sans";
+    font-size: 1.2em;
+    color: #062f4d;
+    margin-top: -30px;
+}
+
+
+
+.faqContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 700px;
+    height: fit-content;
+    border: 2px solid #b8daea;
+    background-color: #D6EEF5;
+    border-radius: 7px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+    color: #062f4d;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    font-family: "DM Sans";
+    color: #0f6ea8;
+    transition:  max-height 1.4s ease;
+}
+.faq.active + .answer{
+    max-height: 400px;
+}
+
+footer{
+    background-image: url(./images/navbarBackground.png);
+    height: fit-content;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Inter';
+    color: #0a4d75;
+    font-size: 0.7em;
+    margin: 0 auto;
+    width: 500px;
+    
+}
