@@ -3,26 +3,6 @@ body{
     background-color: #EEF6FA;
 }
 
-
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-.playfair-display{
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-.dm-sans{
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
 .container{
     background-image: url(./images/navbarBackground.png);
 }
