@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-    background-image: url(./images/navbarBackground.png);
+    background-color: #c2e3f5;
     height: 350px;
     padding: 10px;
 }
@@ -56,5 +56,46 @@ body{
     font-family: "DM Sans";
     font-size: 1.2em;
     color: #062f4d;
-    margin-top: -30px;
+    
+}
+
+footer{
+    background-image: url(./images/navbarBackground.png);
+    height: fit-content;
+    margin-top: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Inter';
+    color: #0a4d75;
+    font-size: 0.7em;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+@media(max-width: 768px){
+    .welcome h1{
+        font-size: 2.5em;
+    }
+    .welcome p{
+        font-size: 1em;
+        margin-top: 0;
+    }
+    
+    .container{
+        height: auto;
+    }
+    
+    .navbar{
+        padding: 8px;
+    }
+    footer{
+        margin-top: 60px;
+    }
 }

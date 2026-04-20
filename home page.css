@@ -107,8 +107,9 @@ footer{
 }
 @media(max-width: 768px){
     .heroSection{
-        background-image: url(./images/bank_hero_background_mobile.svg);
-        background-position: center top;
+        background-image: none;
+        background-color: #c2e3f5;
+        min-height: auto;
     }
     .general{
         flex-direction: column;
@@ -117,7 +118,7 @@ footer{
 
     .heroSectionInfo h1{
         font-size: 2.5em;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .heroSectionInfo hr{

@@ -59,23 +59,3 @@
     border: 1px solid #0f6ea8;
     border-radius: 5px;
 }
-
-
-footer{
-    background-image: url(./images/navbarBackground.png);
-    height: fit-content;
-    margin-top: 200px;
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-family: 'Inter';
-    color: #0a4d75;
-    font-size: 0.7em;
-    margin: 0 auto;
-    width: 500px;
-    
-}

@@ -75,34 +75,11 @@
     border-radius: 5px;
 }
 
-
-footer{
-    background-image: url(./images/navbarBackground.png);
-    height: fit-content;
-    margin-top: 200px;
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-family: 'Inter';
-    color: #0a4d75;
-    font-size: 0.7em;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 500px;
-    box-sizing: border-box;
-}
-
 @media(max-width: 768px){
     .contactContainer{
         padding: 15px;
         margin: 15px;
-        margin: auto;
-    }
-    footer{
-        margin-top: 60px;
+        width: auto;
+        
     }
 }
