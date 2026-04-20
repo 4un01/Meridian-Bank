@@ -109,6 +109,14 @@ footer{
 }
 
 @media(max-width: 768px){
+    .banner{
+        height: 250px;
+        overflow: hidden;
+    }
+    .banner::before{
+        min-height: 250px;
+        background-position: center center;
+    }
     .banner h1{
         font-size: 4em;
         padding: 0 15px;
