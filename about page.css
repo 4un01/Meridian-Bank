@@ -89,7 +89,7 @@ body{
 
 
 footer{
-    background-image: url(./images/navbarBackground.png);
+    background-color: #c2e3f5;
     height: fit-content;
     margin-top: 200px;
 }

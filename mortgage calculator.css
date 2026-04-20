@@ -59,3 +59,12 @@
     border: 1px solid #0f6ea8;
     border-radius: 5px;
 }
+
+@media(max-width: 768px){
+    .mortgageContainer{
+        padding: 15px;
+        margin: 15px;
+        width: auto;
+        margin-top: 60px;
+    }
+}
