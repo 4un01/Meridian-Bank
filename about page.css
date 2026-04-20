@@ -1,45 +1,3 @@
-body{
-    margin: 0 auto;
-    background-color: #EEF6FA;
-}
-
-.container{
-    background-image: url(./images/navbarBackground.png);
-}
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    
-}
-#bankLogo{
-    height: 70px;
-    width: 70px;
-    border-radius: 14px;
-}
-.logo{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-}
-#brandTitle{
-    font-family: "Inter";
-    font-weight: 300;
-    color: #0a4d75;
-}
-.links{
-    display: flex;
-    gap: 22px;   
-}
-.links a{
-    text-decoration: none;
-    font-family: "Inter";
-    font-weight: 350;
-    color: #0a4d75;
-}
-
 .banner{
     position: relative;
     display: flex;
@@ -88,25 +46,6 @@ body{
 }
 
 
-footer{
-    background-color: #c2e3f5;
-    height: fit-content;
-    margin-top: 200px;
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-family: 'Inter';
-    color: #0a4d75;
-    font-size: 0.7em;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 500px;
-    box-sizing: border-box;
-}
 
 @media(max-width: 768px){
     .banner{
@@ -125,9 +64,5 @@ footer{
     .info{
         margin-top: 15px;
         padding: 0 15px;
-    }
-
-    footer{
-        margin-top: 60px;
     }
 }

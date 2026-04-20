@@ -79,6 +79,17 @@ footer{
     box-sizing: border-box;
 }
 
+#hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.8em;
+    color: #0a4d75;
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1;
+}
+
 @media(max-width: 768px){
     .welcome h1{
         font-size: 2.5em;
@@ -93,8 +104,33 @@ footer{
     }
     
     .navbar{
+        flex-wrap: wrap;
         padding: 8px;
     }
+
+    #hamburger {
+    display: block;
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #c2e3f5;
+        padding: 10px 0;
+        gap: 0;
+    }
+
+    .links.nav-open {
+        display: flex;
+    }
+
+    .links a {
+        padding: 12px 16px;
+        border-top: 1px solid #a8d4ec;
+        font-size: 1em;
+    }
+
     footer{
         margin-top: 60px;
     }
