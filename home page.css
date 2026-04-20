@@ -106,6 +106,10 @@ footer{
     
 }
 @media(max-width: 768px){
+    .heroSection{
+        background-image: url(./images/bank_hero_background_mobile.svg);
+        background-position: center top;
+    }
     .general{
         flex-direction: column;
         gap: 20px;
